@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: student-calculator
-        image: DOCKERHUB_USERNAME/student-calculator:IMAGE_TAG
+        image: tanp77/student-calculator:446ab779678c284b66aa6dbdfd4ccf5030236eec
         ports:
         - containerPort: 5000
