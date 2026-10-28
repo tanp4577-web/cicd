@@ -1,4 +1,4 @@
-from app.app import calculate_total_and_average
+from .app import calculate_total_and_average
 
 def test_calculate_total_and_average():
     student_marks = [85, 90, 78, 92, 80]
